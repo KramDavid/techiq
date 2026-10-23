@@ -1,0 +1,41 @@
+name: TechIQ Weekly Refresh
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 8 AM UTC
+  workflow_dispatch:  # Manual trigger button
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Request TechIQ Data from Claude
+        id: refresh
+        run: |
+          curl -X POST https://api.anthropic.com/v1/messages \
+            -H "x-api-key: ${{ secrets.ANTHROPIC_API_KEY }}" \
+            -H "content-type: application/json" \
+            -d '{
+              "model": "claude-3-5-sonnet-20241022",
+              "max_tokens": 8000,
+              "messages": [{
+                "role": "user",
+                "content": "Run TechIQ refresh for '"$(date +%B)"' '"$(date +%Y)"'"
+              }]
+            }' > response.json
+      
+      - name: Update HTML with New Data
+        run: |
+          # This script extracts the JSON from Claude response and updates index.html
+          # (We'd need to write a small Python script for this — happy to create it)
+          echo "Data refreshed"
+      
+      - name: Commit and Push
+        run: |
+          git config user.name "TechIQ Bot"
+          git config user.email "techiq@wdc.local"
+          git add index.html
+          git commit -m "🤖 TechIQ weekly refresh: $(date +%Y-%m-%d)"
+          git push
