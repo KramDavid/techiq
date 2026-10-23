@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-10-23T15:35:00-07:00",
+  "trackingStart": "2026-10-23",
+  "asOf": "2026-10-23",
+  "peripherals": [
+    {
+      "id": "p1",
+      "name": "Razer Kraken Kitty V3",
+      "brand": "Razer",
+      "cat": "Headset",
+      "rel": "2026-10-22",
+      "price": "Price not verified",
+      "desc": "Wired RGB headset with stream-reactive ear lighting, introduced for streamers and content creators.",
+      "source": "https://latestintech.com/category/peripherals/"
+    },
+    {
+      "id": "p2",
+      "name": "Corsair Sabre V3 Pro PureVector",
+      "brand": "Corsair",
+      "cat": "Mouse",
+      "rel": "2026-10-21",
+      "price": "Price not verified",
+      "desc": "Mouse family using Aimlabs calibration data to tailor directional sensitivity.",
+      "source": "https://latestintech.com/category/peripherals/"
+    },
+    {
+      "id": "p3",
+      "name": "Gigabyte GO27Q32",
+      "brand": "Gigabyte",
+      "cat": "Monitor",
+      "rel": "2026-10-12",
+      "price": "Price not verified",
+      "desc": "27-inch QHD gaming monitor using a five-layer Penta Tandem OLED panel at 320Hz.",
+      "source": "https://latestintech.com/category/peripherals/"
+    },
+    {
+      "id": "p4",
+      "name": "AOC U27G4Z",
+      "brand": "AOC",
+      "cat": "Monitor",
+      "rel": "2026-10-10",
+      "price": "Price not verified",
+      "desc": "Dual-mode monitor switching between 4K at 240Hz and 1080p at 480Hz.",
+      "source": "https://latestintech.com/category/peripherals/"
+    },
+    {
+      "id": "p5",
+      "name": "Razer Basilisk V4 Pro",
+      "brand": "Razer",
+      "cat": "Mouse",
+      "rel": "2026-10-10",
+      "price": "Price not verified",
+      "desc": "Refreshed ergonomic wireless mouse with a 50K sensor and optional charging dock.",
+      "source": "https://latestintech.com/category/peripherals/"
+    },
+    {
+      "id": "p6",
+      "name": "Keychron G6 HE",
+      "brand": "Keychron",
+      "cat": "Mouse",
+      "rel": "2026-10-09",
+      "price": "Price not verified",
+      "desc": "Sub-50g wireless mouse with hybrid Hall effect switches and a swappable battery.",
+      "source": "https://latestintech.com/category/peripherals/"
+    }
+  ],
+  "av": [],
+  "ai": [
+    {
+      "id": "ai1",
+      "name": "Plaud AI Voice Recorder & Note-Taker",
+      "brand": "Plaud",
+      "cat": "Physical AI",
+      "rel": "2026-09-24",
+      "price": "Price not verified",
+      "desc": "Wearable recorder that creates transcriptions, summaries and structured notes.",
+      "source": "https://www.plaud.ai/blogs/articles/9-life-changing-ai-wearable-devices-in-2026"
+    },
+    {
+      "id": "ai2",
+      "name": "Bee",
+      "brand": "Bee",
+      "cat": "Physical AI",
+      "rel": "2026-09-24",
+      "price": "Price not verified",
+      "desc": "Screenless wearable described as producing personal summaries, reminders and insights.",
+      "source": "https://www.plaud.ai/blogs/articles/9-life-changing-ai-wearable-devices-in-2026"
+    },
+    {
+      "id": "ai3",
+      "name": "Omi",
+      "brand": "Omi",
+      "cat": "Physical AI",
+      "rel": "2026-09-24",
+      "price": "Price not verified",
+      "desc": "Wearable assistant described as offering summaries, reminders and task support.",
+      "source": "https://www.plaud.ai/blogs/articles/9-life-changing-ai-wearable-devices-in-2026"
+    },
+    {
+      "id": "ai4",
+      "name": "Ray-Ban Meta AI Glasses (Gen 2)",
+      "brand": "Meta / Ray-Ban",
+      "cat": "Physical AI",
+      "rel": "2026-09-24",
+      "price": "Price not verified",
+      "desc": "AI-enabled glasses with microphones, speakers and cameras for hands-free capture and interactions.",
+      "source": "https://www.plaud.ai/blogs/articles/9-life-changing-ai-wearable-devices-in-2026"
+    }
+  ]
+}
